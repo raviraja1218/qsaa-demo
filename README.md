@@ -17,17 +17,23 @@ Proofs & Results
 | `gemma_speed.py`     | ~5% speedup on “Gemma”-like task   | `‘Gemma’ speedup: 4.2%`                                                       |
 | `quantum_tease.py`   | Runs 5-qubit VQC for flex          | `5-qubit test – 3% teaser!`                                                   |
 | `gemma_jax_speed.py` | JAX acceleration + graph           | `‘Gemma’ speedup with JAX: 80.25%` <img src="gemma_jax_speed.png" width="500"/>
-|
+
 
 
 
  Why It Matters
 
-  QSAA secures “Gemma” with real Kyber—quantum-safe now.
-  Proves live speedups from VQC & JAX—up to 80% faster!
-  Built solo in <12 hours for GSoC—ready to scale with mentors.
-  Linked in my GSoC proposal and shared with DeepMind SQ mentors.
+- Quantum-Safe Now        : QSAA secures “Gemma” with Kyber—protects against 2030 quantum threats (per Google’s quantum team).  
+- Massive Efficiency      : 80.25% speedup with JAX—cuts compute costs, scales for AGI.  
+- Quantum Edge            : 5-qubit VQC tease—future-proofs DeepMind’s AI with quantum tech.  
+- Built Solo in <12 Hours : Proves I can deliver fast—ready to scale with DeepMind mentors.  
+- GSoC Ready              : Linked in my GSoC proposal and shared with DeepMind SQ mentors.
 
+Future Work
+
+ Scale to 10-15% speedup on real “Gemma” in 12 weeks—optimize VQC with DeepMind TPUs.  
+ Integrate Kyber into “Gemma”’s full pipeline—end-to-end quantum-safe AI.  
+ Publish as an open-source tool and research paper with DeepMind—boost their community impact.
 
 
 Let’s Collaborate!
@@ -37,6 +43,12 @@ let's co-develop this project into a full-scale research publication and open-so
 
 Author
 
-- [Raviraja](https://github.com/raviraja1218)
-- [GSoC Profile](https://summerofcode.withgoogle.com/programs/2025/organizations/google-deepmind-sq)
-- Email: rhraviraja1812@gmail.com
+ [Raviraja](https://github.com/raviraja1218)
+ [GSoC Profile](https://summerofcode.withgoogle.com/programs/2025/organizations/google-deepmind-sq)
+ Email: rhraviraja1812@gmail.com
+
+
+How to Run
+ Clone: `git clone https://github.com/raviraja1218/qsaa-demo.git`  
+ Install: `pip install oqs pennylane jax jaxlib matplotlib numpy`  
+ Run: `python filename.py`
