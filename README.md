@@ -51,4 +51,4 @@ Author
 How to Run
  Clone: `git clone https://github.com/raviraja1218/qsaa-demo.git`  
  Install: `pip install oqs pennylane jax jaxlib matplotlib numpy`  
- Run: `python filename.py`
+
